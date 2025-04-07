@@ -1,13 +1,3 @@
-import shutil
-
-# Create GitHub-ready folder structure
-github_dir = "/mnt/data/MashPit_Project"
-folders = [
-    "configs", "fx_chains", "prompt_packs", "visual_config", "docs"
-]
-for folder in folders:
-    os.makedirs(os.path.join(github_dir, folder), exist_ok=True)
-
 # Write README.md
 readme_content = """# 🎧 MashPit – The Remix-Native DAW
 
